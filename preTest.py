@@ -10,6 +10,8 @@
 # elif n == k:
 #     print(a)
 # for i in ret[::-1]:
+      if i > 9:
+        # chr,ord in action
 #     print(i, end="")
 
 # 2 Определите количество пар чисел, первое из которых чётно, второе делится на 7, при этом хотя бы одно из них не менее чем трёхзначное
@@ -96,7 +98,7 @@
 # prices = list(map(int,input().split()))
 #
 # def cost(n=N):
-#     if n < 0:
+#     if n < 1:
 #         return 0
 #     else:
 #         minPred = min(cost(n-1),cost(n-2))
