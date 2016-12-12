@@ -4,7 +4,7 @@ import sys
 n = int(sys.argv[1])
 for i in range(2, 2+ n):
     try:
-        print(sys.argv[i] + '=' + os.environ[sys.argv[i]])
+        print(sys.argv[i] + '=' + os.environ[sys.argv[i].upper()])
     except:
         print('')
 
